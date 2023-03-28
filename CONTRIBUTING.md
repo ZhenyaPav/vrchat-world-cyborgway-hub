@@ -40,3 +40,4 @@ When contributing to this repository, please first discuss the change you wish t
 ## Additional information
 
 - [The VRChat Documentation Hub](https://docs.vrchat.com)
+- [Awesome VRChat Resources. One-stop shop for people interested in developing content for VRChat.](https://github.com/madjin/awesome-vrchat)
