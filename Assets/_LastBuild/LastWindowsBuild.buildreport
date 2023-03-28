@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!641289076 &-7527788939312030919
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!668709126 &-7480511155210533309
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-world1.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: clean-avatar-project
+    bundleArchiveFile: 4
+    packagedFileIndices: 03000000
+--- !u!382020655 &-7084470892747354965
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Unity.Burst.Unsafe
+  - VRC.SDK3.Dynamics.PhysBone
+  - OVRPlugin
+  - YamlDotNet
+  - WatsonTcp
+  - System.Threading.Tasks.Extensions
+  - VRC.Udon.ClientBindings
+  - openvr_api
+  - portmidi
+  - VRC.Udon.VRCWrapperModules
+  - VRCSDK3
+  - VRC.Udon.VM
+  - Serilog
+  - nunit.framework
+  - SemanticVersioning
+  - librsync.net
+  - VRC.Udon.Common
+  - VRC.SDK3.Dynamics.Contact
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - System.Buffers
+  - VRC.Dynamics
+  - VRC.Udon.Wrapper
+  - Serilog.Sinks.File
+  - VRC.Udon.Security
+  - clipper_library
+  - VRC.Collections
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - vrc_image_loader
+  - libvrc_image_loader
+  - Newtonsoft.Json
+  - libopenvr_api
+  - Blake2Sharp
+  - System.Memory
+  - VRCCore-Editor
+  - VRC.Utility
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRCSDK3-Editor
+  - VRC.Udon.VRCTypeResolverModules
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - VRC.Udon.Compiler
+  - VRC.Udon.UAssembly
+  - vpm-core-lib
+  - VRC.Udon.Graph
+  - UnityEditor.VR
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - VRCSDKBase-Editor
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - VRC.Udon.VRCGraphModules
+  - log4netPlastic
+  - VRC.Udon.EditorBindings
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - Serilog.Sinks.Unity3D
+  - lz4x64Plastic
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638156046109363110
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: /tmp/DefaultCompany/clean-avatar-project/scene-standalonewindows64-world1.vrcw
+    crc: 684870421
+    totalSize: 7610283
+    totalTimeTicks: 183329961
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: /home/zhenyapav/Projects/VRC-World1/scene-standalonewindows64-world1.vrcw/BuildPlayer-World1
+    role: Scene
+    id: 0
+    totalSize: 168192
+  - path: /home/zhenyapav/Projects/VRC-World1/scene-standalonewindows64-world1.vrcw/BuildPlayer-World1.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 11787660
+  - path: /home/zhenyapav/Projects/VRC-World1/scene-standalonewindows64-world1.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 7609065
+  - path: /home/zhenyapav/Projects/VRC-World1/clean-avatar-project/CAB-358b9ed65e58791dbd303ed24415aed0
+    role: ResourcesFile
+    id: 3
+    totalSize: 4308
+  - path: /home/zhenyapav/Projects/VRC-World1/clean-avatar-project
+    role: ManifestAssetBundle
+    id: 4
+    totalSize: 1053
+  - path: /home/zhenyapav/Projects/VRC-World1/clean-avatar-project.manifest
+    role: AssetBundleTextManifest
+    id: 5
+    totalSize: 165
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 183329961
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 34384
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 80247191
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 35523518
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 1670582
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 5201586
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/World1.unity
+    durationTicks: 5178673
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 4379406
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-World1/BuildPlayer-World1.sharedAssets
+    durationTicks: 4352461
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 14742910
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 38152
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -7480511155210533309}
+  - {fileID: 655833252798951572}
+  - {fileID: -7084470892747354965}
+  - {fileID: -7527788939312030919}
+  - {fileID: 2571068318319566513}
+--- !u!1126 &655833252798951572
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-World1.sharedAssets
+  m_Overhead: 68191
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 25
+    offset: 68584
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 152
+    offset: 68616
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 916
+    offset: 68768
+    sourceAssetGUID: 5af392f804e39dcb6b1c9d02f63d9d5c
+    buildTimeAssetPath: Assets/Materials/Platform.mat
+  - fileID: 4
+    classID: 21
+    packedSize: 816
+    offset: 69688
+    sourceAssetGUID: b83a31ba5add0e946847eca6362fa239
+    buildTimeAssetPath: Assets/Materials/Skybox.mat
+  - fileID: 5
+    classID: 28
+    packedSize: 5592548
+    offset: 70504
+    sourceAssetGUID: 2161ba133e4339643a2a41e132531c56
+    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Normal.png
+  - fileID: 6
+    classID: 28
+    packedSize: 2796328
+    offset: 5663056
+    sourceAssetGUID: d48b0ca5ba64be44396e2336c27b3c4b
+    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_AO.png
+  - fileID: 7
+    classID: 28
+    packedSize: 2796332
+    offset: 8459384
+    sourceAssetGUID: df3add141d9bccf4e97ff6ab6c319438
+    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Height.png
+  - fileID: 8
+    classID: 43
+    packedSize: 20956
+    offset: 11255720
+    sourceAssetGUID: ece67de0ace5355a5838edc26862cae4
+    buildTimeAssetPath: Assets/Models/Platform.blend
+  - fileID: 9
+    classID: 48
+    packedSize: 23380
+    offset: 11276680
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 10
+    classID: 48
+    packedSize: 466072
+    offset: 11300064
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 11
+    classID: 48
+    packedSize: 4456
+    offset: 11766136
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 12
+    classID: 115
+    packedSize: 96
+    offset: 68160
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 13
+    classID: 115
+    packedSize: 108
+    offset: 68256
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 14
+    classID: 115
+    packedSize: 88
+    offset: 68368
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 15
+    classID: 115
+    packedSize: 128
+    offset: 68456
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 16
+    classID: 114
+    packedSize: 17068
+    offset: 11770592
+    sourceAssetGUID: 43c915d033804e8cd87844c2c8005b25
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+--- !u!1126 &2571068318319566513
+PackedAssets:
+  m_File: 3
+  m_ShortPath: CAB-358b9ed65e58791dbd303ed24415aed0
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 108
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
