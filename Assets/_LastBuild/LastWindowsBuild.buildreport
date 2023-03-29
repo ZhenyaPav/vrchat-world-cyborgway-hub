@@ -1,20 +1,256 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!641289076 &-7527788939312030919
+--- !u!1126 &-1102652388520395046
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-World1.sharedAssets
+  m_Overhead: 75523
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 25
+    offset: 75912
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 152
+    offset: 75944
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 904
+    offset: 76096
+    sourceAssetGUID: 5af392f804e39dcb6b1c9d02f63d9d5c
+    buildTimeAssetPath: Assets/Materials/Platform.mat
+  - fileID: 4
+    classID: 21
+    packedSize: 816
+    offset: 77000
+    sourceAssetGUID: b83a31ba5add0e946847eca6362fa239
+    buildTimeAssetPath: Assets/Materials/Skybox.mat
+  - fileID: 5
+    classID: 28
+    packedSize: 5592548
+    offset: 77816
+    sourceAssetGUID: 2161ba133e4339643a2a41e132531c56
+    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Normal.png
+  - fileID: 6
+    classID: 28
+    packedSize: 1398248
+    offset: 5670368
+    sourceAssetGUID: 2b82ffdd5b8b75b46b206bd213b792b3
+    buildTimeAssetPath: Assets/Scenes/World1/Lightmap-0_comp_light.exr
+  - fileID: 7
+    classID: 28
+    packedSize: 2796328
+    offset: 7068616
+    sourceAssetGUID: d48b0ca5ba64be44396e2336c27b3c4b
+    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_AO.png
+  - fileID: 8
+    classID: 28
+    packedSize: 1398244
+    offset: 9864944
+    sourceAssetGUID: e5e77bf1d0ff3d9e3b3fde47c6efd640
+    buildTimeAssetPath: Assets/Scenes/World1/Lightmap-0_comp_dir.png
+  - fileID: 9
+    classID: 43
+    packedSize: 25772
+    offset: 11263192
+    sourceAssetGUID: ece67de0ace5355a5838edc26862cae4
+    buildTimeAssetPath: Assets/Platforms/Models/Platform.blend
+  - fileID: 10
+    classID: 43
+    packedSize: 36268
+    offset: 11288968
+    sourceAssetGUID: ece67de0ace5355a5838edc26862cae4
+    buildTimeAssetPath: Assets/Platforms/Models/Platform.blend
+  - fileID: 11
+    classID: 48
+    packedSize: 23380
+    offset: 11325240
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 12
+    classID: 48
+    packedSize: 357740
+    offset: 11348624
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 13
+    classID: 48
+    packedSize: 4456
+    offset: 11706368
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 14
+    classID: 89
+    packedSize: 131424
+    offset: 11710824
+    sourceAssetGUID: 8e3d2b812ac467ca79ba113836a5a977
+    buildTimeAssetPath: Assets/Scenes/World1/ReflectionProbe-0.exr
+  - fileID: 15
+    classID: 89
+    packedSize: 131424
+    offset: 11842248
+    sourceAssetGUID: beae939f23ab437e09af579ef1ce99c4
+    buildTimeAssetPath: Assets/Scenes/World1/ReflectionProbe-1.exr
+  - fileID: 16
+    classID: 115
+    packedSize: 96
+    offset: 75488
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 17
+    classID: 115
+    packedSize: 108
+    offset: 75584
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 18
+    classID: 115
+    packedSize: 88
+    offset: 75696
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 19
+    classID: 115
+    packedSize: 128
+    offset: 75784
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 20
+    classID: 258
+    packedSize: 40
+    offset: 11973672
+    sourceAssetGUID: 77c1a0c1e17f9870e8a1c4b3e185d9a6
+    buildTimeAssetPath: Assets/Scenes/World1/LightingData.asset
+  - fileID: 21
+    classID: 114
+    packedSize: 17068
+    offset: 11973712
+    sourceAssetGUID: 43c915d033804e8cd87844c2c8005b25
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+--- !u!641289076 &-133140644401642153
 AudioBuildInfo:
   m_IsAudioDisabled: 0
   m_AudioClipCount: 0
   m_AudioMixerCount: 0
---- !u!668709126 &-7480511155210533309
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638156158685490600
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/ZHENYA~1/AppData/Local/Temp/DefaultCompany/clean-avatar-project/scene-standalonewindows64-world1.vrcw
+    crc: 1187431885
+    totalSize: 6796974
+    totalTimeTicks: 85533796
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: E:/VRC-World1/scene-standalonewindows64-world1.vrcw/BuildPlayer-World1
+    role: Scene
+    id: 0
+    totalSize: 108664
+  - path: E:/VRC-World1/scene-standalonewindows64-world1.vrcw/BuildPlayer-World1.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 11990780
+  - path: E:/VRC-World1/scene-standalonewindows64-world1.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 6794325
+  - path: E:/VRC-World1/scene-standalonewindows64-world1.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 1432
+  - path: E:/VRC-World1/clean-avatar-project/CAB-358b9ed65e58791dbd303ed24415aed0
+    role: ResourcesFile
+    id: 4
+    totalSize: 4308
+  - path: E:/VRC-World1/clean-avatar-project
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1052
+  - path: E:/VRC-World1/clean-avatar-project.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 165
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 85533796
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 29559
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 27584918
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 25311450
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 861608
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 2355327
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/World1.unity
+    durationTicks: 2341980
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 991109
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-World1/BuildPlayer-World1.sharedAssets
+    durationTicks: 972750
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 12544810
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 129096
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: 2351769429445463347}
+  - {fileID: -1102652388520395046}
+  - {fileID: 5914063371037482038}
+  - {fileID: -133140644401642153}
+  - {fileID: 6604494054702089279}
+--- !u!668709126 &2351769429445463347
 BuiltAssetBundleInfoSet:
   bundleInfos:
   - bundleName: scene-standalonewindows64-world1.vrcw
     bundleArchiveFile: 2
     packagedFileIndices: 0000000001000000
   - bundleName: clean-avatar-project
-    bundleArchiveFile: 4
-    packagedFileIndices: 03000000
---- !u!382020655 &-7084470892747354965
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!382020655 &5914063371037482038
 PluginBuildInfo:
   m_RuntimePlugins:
   - Unity.Burst.Unsafe
@@ -78,211 +314,9 @@ PluginBuildInfo:
   - Unity.Plastic.Antlr3.Runtime
   - Serilog.Sinks.Unity3D
   - lz4x64Plastic
---- !u!1125 &1
-BuildReport:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: LastWindowsBuild
-  m_Summary:
-    buildStartTime:
-      serializedVersion: 2
-      ticks: 638156046109363110
-    buildGUID: 00000000000000000000000000000000
-    platformName: Win64
-    platformGroupName: Standalone
-    options: 16
-    assetBundleOptions: 32
-    outputPath: /tmp/DefaultCompany/clean-avatar-project/scene-standalonewindows64-world1.vrcw
-    crc: 684870421
-    totalSize: 7610283
-    totalTimeTicks: 183329961
-    totalErrors: 0
-    totalWarnings: 0
-    buildType: 1
-    buildResult: 1
-  m_Files:
-  - path: /home/zhenyapav/Projects/VRC-World1/scene-standalonewindows64-world1.vrcw/BuildPlayer-World1
-    role: Scene
-    id: 0
-    totalSize: 168192
-  - path: /home/zhenyapav/Projects/VRC-World1/scene-standalonewindows64-world1.vrcw/BuildPlayer-World1.sharedAssets
-    role: SharedAssets
-    id: 1
-    totalSize: 11787660
-  - path: /home/zhenyapav/Projects/VRC-World1/scene-standalonewindows64-world1.vrcw
-    role: AssetBundle
-    id: 2
-    totalSize: 7609065
-  - path: /home/zhenyapav/Projects/VRC-World1/clean-avatar-project/CAB-358b9ed65e58791dbd303ed24415aed0
-    role: ResourcesFile
-    id: 3
-    totalSize: 4308
-  - path: /home/zhenyapav/Projects/VRC-World1/clean-avatar-project
-    role: ManifestAssetBundle
-    id: 4
-    totalSize: 1053
-  - path: /home/zhenyapav/Projects/VRC-World1/clean-avatar-project.manifest
-    role: AssetBundleTextManifest
-    id: 5
-    totalSize: 165
-  m_BuildSteps:
-  - stepName: Build Asset Bundles
-    durationTicks: 183329961
-    depth: 0
-    messages: []
-  - stepName: Calculate asset bundles to be built
-    durationTicks: 34384
-    depth: 1
-    messages: []
-  - stepName: Compile scripts
-    durationTicks: 80247191
-    depth: 1
-    messages: []
-  - stepName: Build player
-    durationTicks: 35523518
-    depth: 1
-    messages: []
-  - stepName: Prepare assets for target platform
-    durationTicks: 1670582
-    depth: 2
-    messages: []
-  - stepName: Building scenes
-    durationTicks: 5201586
-    depth: 2
-    messages: []
-  - stepName: Building scene Assets/Scenes/World1.unity
-    durationTicks: 5178673
-    depth: 3
-    messages: []
-  - stepName: Writing asset files
-    durationTicks: 4379406
-    depth: 2
-    messages: []
-  - stepName: Packaging assets - archive:/BuildPlayer-World1/BuildPlayer-World1.sharedAssets
-    durationTicks: 4352461
-    depth: 3
-    messages: []
-  - stepName: Creating compressed player package
-    durationTicks: 14742910
-    depth: 2
-    messages: []
-  - stepName: Postprocess built player
-    durationTicks: 38152
-    depth: 2
-    messages: []
-  m_Appendices:
-  - {fileID: -7480511155210533309}
-  - {fileID: 655833252798951572}
-  - {fileID: -7084470892747354965}
-  - {fileID: -7527788939312030919}
-  - {fileID: 2571068318319566513}
---- !u!1126 &655833252798951572
+--- !u!1126 &6604494054702089279
 PackedAssets:
-  m_File: 1
-  m_ShortPath: BuildPlayer-World1.sharedAssets
-  m_Overhead: 68191
-  m_Contents:
-  - fileID: 1
-    classID: 150
-    packedSize: 25
-    offset: 68584
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 
-  - fileID: 2
-    classID: 142
-    packedSize: 152
-    offset: 68616
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 
-  - fileID: 3
-    classID: 21
-    packedSize: 916
-    offset: 68768
-    sourceAssetGUID: 5af392f804e39dcb6b1c9d02f63d9d5c
-    buildTimeAssetPath: Assets/Materials/Platform.mat
-  - fileID: 4
-    classID: 21
-    packedSize: 816
-    offset: 69688
-    sourceAssetGUID: b83a31ba5add0e946847eca6362fa239
-    buildTimeAssetPath: Assets/Materials/Skybox.mat
-  - fileID: 5
-    classID: 28
-    packedSize: 5592548
-    offset: 70504
-    sourceAssetGUID: 2161ba133e4339643a2a41e132531c56
-    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Normal.png
-  - fileID: 6
-    classID: 28
-    packedSize: 2796328
-    offset: 5663056
-    sourceAssetGUID: d48b0ca5ba64be44396e2336c27b3c4b
-    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_AO.png
-  - fileID: 7
-    classID: 28
-    packedSize: 2796332
-    offset: 8459384
-    sourceAssetGUID: df3add141d9bccf4e97ff6ab6c319438
-    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Height.png
-  - fileID: 8
-    classID: 43
-    packedSize: 20956
-    offset: 11255720
-    sourceAssetGUID: ece67de0ace5355a5838edc26862cae4
-    buildTimeAssetPath: Assets/Models/Platform.blend
-  - fileID: 9
-    classID: 48
-    packedSize: 23380
-    offset: 11276680
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 10
-    classID: 48
-    packedSize: 466072
-    offset: 11300064
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 11
-    classID: 48
-    packedSize: 4456
-    offset: 11766136
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 12
-    classID: 115
-    packedSize: 96
-    offset: 68160
-    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
-    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
-  - fileID: 13
-    classID: 115
-    packedSize: 108
-    offset: 68256
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 14
-    classID: 115
-    packedSize: 88
-    offset: 68368
-    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
-  - fileID: 15
-    classID: 115
-    packedSize: 128
-    offset: 68456
-    sourceAssetGUID: bf61d954ecb803046953c666facfb904
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
-  - fileID: 16
-    classID: 114
-    packedSize: 17068
-    offset: 11770592
-    sourceAssetGUID: 43c915d033804e8cd87844c2c8005b25
-    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
---- !u!1126 &2571068318319566513
-PackedAssets:
-  m_File: 3
+  m_File: 4
   m_ShortPath: CAB-358b9ed65e58791dbd303ed24415aed0
   m_Overhead: 4096
   m_Contents:

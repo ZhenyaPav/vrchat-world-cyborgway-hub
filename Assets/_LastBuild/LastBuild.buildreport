@@ -1,37 +1,45 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!641289076 &-7527788939312030919
+--- !u!641289076 &-5099640211625660682
 AudioBuildInfo:
   m_IsAudioDisabled: 0
   m_AudioClipCount: 0
   m_AudioMixerCount: 0
---- !u!668709126 &-7480511155210533309
-BuiltAssetBundleInfoSet:
-  bundleInfos:
-  - bundleName: scene-standalonewindows64-world1.vrcw
-    bundleArchiveFile: 2
-    packagedFileIndices: 0000000001000000
-  - bundleName: clean-avatar-project
-    bundleArchiveFile: 4
-    packagedFileIndices: 03000000
---- !u!382020655 &-7084470892747354965
+--- !u!1126 &-2193057641900624992
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-358b9ed65e58791dbd303ed24415aed0
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 96
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!382020655 &-72923949593813479
 PluginBuildInfo:
   m_RuntimePlugins:
   - Unity.Burst.Unsafe
   - VRC.SDK3.Dynamics.PhysBone
-  - OVRPlugin
+  - libvrc_image_loader
   - YamlDotNet
   - WatsonTcp
   - System.Threading.Tasks.Extensions
   - VRC.Udon.ClientBindings
-  - openvr_api
-  - portmidi
   - VRC.Udon.VRCWrapperModules
   - VRCSDK3
   - VRC.Udon.VM
   - Serilog
   - nunit.framework
   - SemanticVersioning
+  - OVRPlugin
   - librsync.net
   - VRC.Udon.Common
   - VRC.SDK3.Dynamics.Contact
@@ -47,33 +55,35 @@ PluginBuildInfo:
   - VRC.Collections
   - VRCSDKBase
   - System.Runtime.CompilerServices.Unsafe
-  - vrc_image_loader
-  - libvrc_image_loader
   - Newtonsoft.Json
-  - libopenvr_api
   - Blake2Sharp
   - System.Memory
   - VRCCore-Editor
   - VRC.Utility
-  - AudioPluginOculusSpatializer
+  - libAudioPluginOculusSpatializer
   m_EditorPlugins:
+  - openvr_api
   - VRCSDK3-Editor
   - VRC.Udon.VRCTypeResolverModules
+  - portmidi
   - AppleEventIntegration
   - liblz4Plastic
   - Unity.Plastic.Newtonsoft.Json
   - unityplastic
   - VRC.Udon.Compiler
+  - AudioPluginOculusSpatializer
   - VRC.Udon.UAssembly
   - vpm-core-lib
   - VRC.Udon.Graph
   - UnityEditor.VR
+  - vrc_image_loader
   - VRC.SDK3.Dynamics.PhysBone.Editor
   - VRCSDKBase-Editor
   - VRC.SDK3.Dynamics.Contact.Editor
   - VRC.Udon.VRCGraphModules
   - log4netPlastic
   - VRC.Udon.EditorBindings
+  - libopenvr_api
   - zlib64Plastic
   - Unity.Plastic.Antlr3.Runtime
   - Serilog.Sinks.Unity3D
@@ -88,213 +98,312 @@ BuildReport:
   m_Summary:
     buildStartTime:
       serializedVersion: 2
-      ticks: 638156046109363110
+      ticks: 638156788677050500
     buildGUID: 00000000000000000000000000000000
-    platformName: Win64
-    platformGroupName: Standalone
+    platformName: Android
+    platformGroupName: Android
     options: 16
     assetBundleOptions: 32
-    outputPath: /tmp/DefaultCompany/clean-avatar-project/scene-standalonewindows64-world1.vrcw
-    crc: 684870421
-    totalSize: 7610283
-    totalTimeTicks: 0
+    outputPath: /tmp/DefaultCompany/clean-avatar-project/scene-android-world1.vrcw
+    crc: 191140560
+    totalSize: 4044113
+    totalTimeTicks: 219095543
     totalErrors: 0
-    totalWarnings: 0
+    totalWarnings: 2
     buildType: 1
     buildResult: 1
   m_Files:
-  - path: /home/zhenyapav/Projects/VRC-World1/scene-standalonewindows64-world1.vrcw/BuildPlayer-World1
+  - path: /media/veracrypt3/VRC-World1/scene-android-world1.vrcw/BuildPlayer-World1
     role: Scene
     id: 0
-    totalSize: 168192
-  - path: /home/zhenyapav/Projects/VRC-World1/scene-standalonewindows64-world1.vrcw/BuildPlayer-World1.sharedAssets
+    totalSize: 121176
+  - path: /media/veracrypt3/VRC-World1/scene-android-world1.vrcw/BuildPlayer-World1.sharedAssets
     role: SharedAssets
     id: 1
-    totalSize: 11787660
-  - path: /home/zhenyapav/Projects/VRC-World1/scene-standalonewindows64-world1.vrcw
+    totalSize: 11543876
+  - path: /media/veracrypt3/VRC-World1/scene-android-world1.vrcw
     role: AssetBundle
     id: 2
-    totalSize: 7609065
-  - path: /home/zhenyapav/Projects/VRC-World1/clean-avatar-project/CAB-358b9ed65e58791dbd303ed24415aed0
-    role: ResourcesFile
-    id: 3
-    totalSize: 4308
-  - path: /home/zhenyapav/Projects/VRC-World1/clean-avatar-project
-    role: ManifestAssetBundle
-    id: 4
-    totalSize: 1053
-  - path: /home/zhenyapav/Projects/VRC-World1/clean-avatar-project.manifest
+    totalSize: 4040836
+  - path: /media/veracrypt3/VRC-World1/scene-android-world1.vrcw.manifest
     role: AssetBundleTextManifest
+    id: 3
+    totalSize: 2080
+  - path: /media/veracrypt3/VRC-World1/clean-avatar-project/CAB-358b9ed65e58791dbd303ed24415aed0
+    role: ResourcesFile
+    id: 4
+    totalSize: 4296
+  - path: /media/veracrypt3/VRC-World1/clean-avatar-project
+    role: ManifestAssetBundle
     id: 5
-    totalSize: 165
+    totalSize: 1044
+  - path: /media/veracrypt3/VRC-World1/clean-avatar-project.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 153
   m_BuildSteps:
   - stepName: Build Asset Bundles
-    durationTicks: 183329961
+    durationTicks: 219095543
     depth: 0
     messages: []
   - stepName: Calculate asset bundles to be built
-    durationTicks: 34384
+    durationTicks: 257886
     depth: 1
     messages: []
   - stepName: Compile scripts
-    durationTicks: 80247191
+    durationTicks: 72502038
     depth: 1
     messages: []
   - stepName: Build player
-    durationTicks: 35523518
+    durationTicks: 106766499
     depth: 1
     messages: []
   - stepName: Prepare assets for target platform
-    durationTicks: 1670582
+    durationTicks: 5131048
     depth: 2
-    messages: []
+    messages:
+    - type: 2
+      content: Warning! Using antialiasing on a mobile device may decrease performance
+        severely. You can change the mobile quality settings in 'Project Settings
+        -> Quality Settings'.
+    - type: 2
+      content: Warning! Using more than 1 pixel lights on a mobile device may decrease
+        performance severely. You can change the mobile quality settings in 'Project
+        Settings -> Quality Settings'.
   - stepName: Building scenes
-    durationTicks: 5201586
+    durationTicks: 55409253
     depth: 2
     messages: []
   - stepName: Building scene Assets/Scenes/World1.unity
-    durationTicks: 5178673
+    durationTicks: 55386775
     depth: 3
     messages: []
   - stepName: Writing asset files
-    durationTicks: 4379406
+    durationTicks: 22595607
     depth: 2
     messages: []
   - stepName: Packaging assets - archive:/BuildPlayer-World1/BuildPlayer-World1.sharedAssets
-    durationTicks: 4352461
+    durationTicks: 22543476
     depth: 3
     messages: []
   - stepName: Creating compressed player package
-    durationTicks: 14742910
+    durationTicks: 12515564
     depth: 2
     messages: []
   - stepName: Postprocess built player
-    durationTicks: 38152
+    durationTicks: 39638
     depth: 2
     messages: []
   m_Appendices:
-  - {fileID: -7480511155210533309}
-  - {fileID: 655833252798951572}
-  - {fileID: -7084470892747354965}
-  - {fileID: -7527788939312030919}
-  - {fileID: 2571068318319566513}
---- !u!1126 &655833252798951572
+  - {fileID: 6268673297485317557}
+  - {fileID: 1103386517454468688}
+  - {fileID: -72923949593813479}
+  - {fileID: -5099640211625660682}
+  - {fileID: -2193057641900624992}
+--- !u!1126 &1103386517454468688
 PackedAssets:
   m_File: 1
   m_ShortPath: BuildPlayer-World1.sharedAssets
-  m_Overhead: 68191
+  m_Overhead: 75771
   m_Contents:
   - fileID: 1
     classID: 150
-    packedSize: 25
-    offset: 68584
+    packedSize: 85
+    offset: 76648
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 
   - fileID: 2
     classID: 142
-    packedSize: 152
-    offset: 68616
+    packedSize: 140
+    offset: 76736
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 
   - fileID: 3
     classID: 21
-    packedSize: 916
-    offset: 68768
-    sourceAssetGUID: 5af392f804e39dcb6b1c9d02f63d9d5c
-    buildTimeAssetPath: Assets/Materials/Platform.mat
+    packedSize: 1052
+    offset: 76880
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
   - fileID: 4
     classID: 21
+    packedSize: 604
+    offset: 77936
+    sourceAssetGUID: b1b900e31f5c16040853f70e5d2448ba
+    buildTimeAssetPath: Assets/Materials/Platform-Android.mat
+  - fileID: 5
+    classID: 21
+    packedSize: 904
+    offset: 78544
+    sourceAssetGUID: 5af392f804e39dcb6b1c9d02f63d9d5c
+    buildTimeAssetPath: Assets/Materials/Platform.mat
+  - fileID: 6
+    classID: 21
     packedSize: 816
-    offset: 69688
+    offset: 79448
     sourceAssetGUID: b83a31ba5add0e946847eca6362fa239
     buildTimeAssetPath: Assets/Materials/Skybox.mat
-  - fileID: 5
-    classID: 28
-    packedSize: 5592548
-    offset: 70504
-    sourceAssetGUID: 2161ba133e4339643a2a41e132531c56
-    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Normal.png
-  - fileID: 6
-    classID: 28
-    packedSize: 2796328
-    offset: 5663056
-    sourceAssetGUID: d48b0ca5ba64be44396e2336c27b3c4b
-    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_AO.png
   - fileID: 7
     classID: 28
     packedSize: 2796332
-    offset: 8459384
-    sourceAssetGUID: df3add141d9bccf4e97ff6ab6c319438
-    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Height.png
+    offset: 80264
+    sourceAssetGUID: 2161ba133e4339643a2a41e132531c56
+    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Normal.png
   - fileID: 8
-    classID: 43
-    packedSize: 20956
-    offset: 11255720
-    sourceAssetGUID: ece67de0ace5355a5838edc26862cae4
-    buildTimeAssetPath: Assets/Models/Platform.blend
+    classID: 28
+    packedSize: 699184
+    offset: 2876600
+    sourceAssetGUID: 2b82ffdd5b8b75b46b206bd213b792b3
+    buildTimeAssetPath: Assets/Scenes/World1/Lightmap-0_comp_light.exr
   - fileID: 9
-    classID: 48
-    packedSize: 23380
-    offset: 11276680
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 28
+    packedSize: 2796328
+    offset: 3575784
+    sourceAssetGUID: d48b0ca5ba64be44396e2336c27b3c4b
+    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_AO.png
   - fileID: 10
-    classID: 48
-    packedSize: 466072
-    offset: 11300064
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 28
+    packedSize: 1398244
+    offset: 6372112
+    sourceAssetGUID: e5e77bf1d0ff3d9e3b3fde47c6efd640
+    buildTimeAssetPath: Assets/Scenes/World1/Lightmap-0_comp_dir.png
   - fileID: 11
+    classID: 28
+    packedSize: 2796332
+    offset: 7770360
+    sourceAssetGUID: ed75473234df47c4cb1b631ffd55f38f
+    buildTimeAssetPath: Assets/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Height.png
+  - fileID: 12
+    classID: 43
+    packedSize: 25772
+    offset: 10566696
+    sourceAssetGUID: ece67de0ace5355a5838edc26862cae4
+    buildTimeAssetPath: Assets/Platforms/Models/Platform.blend
+  - fileID: 13
+    classID: 43
+    packedSize: 36268
+    offset: 10592472
+    sourceAssetGUID: ece67de0ace5355a5838edc26862cae4
+    buildTimeAssetPath: Assets/Platforms/Models/Platform.blend
+  - fileID: 14
     classID: 48
-    packedSize: 4456
-    offset: 11766136
+    packedSize: 38476
+    offset: 10628744
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 12
+  - fileID: 15
+    classID: 48
+    packedSize: 128856
+    offset: 10667224
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 16
+    classID: 48
+    packedSize: 541628
+    offset: 10796080
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 17
+    classID: 48
+    packedSize: 5980
+    offset: 11337712
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 18
+    classID: 48
+    packedSize: 25084
+    offset: 11343696
+    sourceAssetGUID: 2dcd9e0568e0a6f45b92c60ba2eb16a0
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Diffuse.shader
+  - fileID: 19
+    classID: 48
+    packedSize: 26364
+    offset: 11368784
+    sourceAssetGUID: f8c1f8ac363df824899534a0b30eef00
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-BumpedDiffuse.shader
+  - fileID: 20
+    classID: 89
+    packedSize: 65808
+    offset: 11395152
+    sourceAssetGUID: 8e3d2b812ac467ca79ba113836a5a977
+    buildTimeAssetPath: Assets/Scenes/World1/ReflectionProbe-0.exr
+  - fileID: 21
+    classID: 89
+    packedSize: 65808
+    offset: 11460960
+    sourceAssetGUID: beae939f23ab437e09af579ef1ce99c4
+    buildTimeAssetPath: Assets/Scenes/World1/ReflectionProbe-1.exr
+  - fileID: 22
     classID: 115
     packedSize: 96
-    offset: 68160
+    offset: 75712
     sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
     buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
-  - fileID: 13
+  - fileID: 23
     classID: 115
     packedSize: 108
-    offset: 68256
+    offset: 75808
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 14
+  - fileID: 24
+    classID: 115
+    packedSize: 96
+    offset: 75920
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 25
     classID: 115
     packedSize: 88
-    offset: 68368
+    offset: 76016
     sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
     buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
-  - fileID: 15
+  - fileID: 26
     classID: 115
     packedSize: 128
-    offset: 68456
+    offset: 76104
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 27
+    classID: 115
+    packedSize: 80
+    offset: 76232
+    sourceAssetGUID: 5f7201a12d95ffc409449d95f23cf332
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Text.cs
+  - fileID: 28
+    classID: 115
+    packedSize: 104
+    offset: 76312
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 29
+    classID: 115
+    packedSize: 128
+    offset: 76416
     sourceAssetGUID: bf61d954ecb803046953c666facfb904
     buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
-  - fileID: 16
+  - fileID: 30
+    classID: 115
+    packedSize: 104
+    offset: 76544
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 31
+    classID: 258
+    packedSize: 40
+    offset: 11526768
+    sourceAssetGUID: 77c1a0c1e17f9870e8a1c4b3e185d9a6
+    buildTimeAssetPath: Assets/Scenes/World1/LightingData.asset
+  - fileID: 32
     classID: 114
     packedSize: 17068
-    offset: 11770592
+    offset: 11526808
     sourceAssetGUID: 43c915d033804e8cd87844c2c8005b25
     buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
---- !u!1126 &2571068318319566513
-PackedAssets:
-  m_File: 3
-  m_ShortPath: CAB-358b9ed65e58791dbd303ed24415aed0
-  m_Overhead: 4096
-  m_Contents:
-  - fileID: 1
-    classID: 142
-    packedSize: 104
-    offset: 4096
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: AssetBundle Object
-  - fileID: 2
-    classID: 290
-    packedSize: 108
-    offset: 4200
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!668709126 &6268673297485317557
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-android-world1.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: clean-avatar-project
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
