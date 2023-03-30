@@ -8,7 +8,7 @@ The repository is a part of the [Cyborg Way Organization](https://github.com/cyb
 
 Your contributions support our organization. Contact us to receive donation tokens.
 
-Please read through our [Contributing Guidelines](CONTRIBUTING.md) and [Installation Instructions](INSTALL.md).
+Please read through our [Contribution Guidelines](CONTRIBUTING.md), [Architecture Overview](ARCHITECTURE.md) and [Installation Instructions](INSTALL.md).
 
 ## Feedback
 
