@@ -1,0 +1,25 @@
+import bpy
+import random
+cube_width_min = 3
+cube_width_max = 10
+cube_height_min = 0.5
+cube_height_max = 1.5
+num_cubes = 50
+max_distance = 20
+for i in range(num_cubes):
+    # Randomly generate the scaling for the cube
+    scale_x = random.uniform(cube_width_min, cube_width_max)
+    scale_y = random.uniform(cube_width_min, cube_width_max)
+    scale_z = random.uniform(cube_height_min, cube_height_max)
+    bpy.ops.mesh.primitive_cube_add()
+    cube = bpy.context.object
+    cube.scale = (scale_x, scale_y, scale_z)
+    pos_x = random.uniform(-max_distance, max_distance)
+    pos_y = random.uniform(-max_distance, max_distance)
+    pos_z = random.uniform(-max_distance, max_distance)
+    cube.location = (pos_x, pos_y, pos_z)
+cubes = bpy.data.objects
+z_values = [cube.location[2] for cube in cubes]
+max_z = max(z_values)
+for cube in cubes:
+    cube.location[2] = max_z - cube.scale[2]/2
