@@ -14,6 +14,9 @@
     },
     "dev.onevr.vrworldtoolkit": {
       "version": "2.1.4"
+    },
+    "net.koyashiro.udonjson": {
+      "version": "0.12.0"
     }
   },
   "locked": {
@@ -51,6 +54,27 @@
       "version": "2.1.4",
       "dependencies": {
         "com.vrchat.base": "3.1.x"
+      }
+    },
+    "net.koyashiro.udonjson": {
+      "version": "0.12.0",
+      "dependencies": {
+        "com.vrchat.udonsharp": "1.1.7",
+        "net.koyashiro.udondictionary": "0.9.2",
+        "net.koyashiro.udonlist": "0.14.2"
+      }
+    },
+    "net.koyashiro.udondictionary": {
+      "version": "0.9.2",
+      "dependencies": {
+        "com.vrchat.udonsharp": "1.1.7",
+        "net.koyashiro.udonlist": "0.14.2"
+      }
+    },
+    "net.koyashiro.udonlist": {
+      "version": "0.14.2",
+      "dependencies": {
+        "com.vrchat.udonsharp": "1.1.7"
       }
     }
   }

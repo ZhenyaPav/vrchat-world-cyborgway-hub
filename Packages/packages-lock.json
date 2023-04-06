@@ -49,7 +49,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.3",
+      "version": "1.2.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -205,6 +205,24 @@
       "dependencies": {
         "com.unity.postprocessing": "3.1.1"
       }
+    },
+    "net.koyashiro.udondictionary": {
+      "version": "file:net.koyashiro.udondictionary",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "net.koyashiro.udonjson": {
+      "version": "file:net.koyashiro.udonjson",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "net.koyashiro.udonlist": {
+      "version": "file:net.koyashiro.udonlist",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "vrchat.jordo.easyquestswitch": {
       "version": "file:vrchat.jordo.easyquestswitch",
